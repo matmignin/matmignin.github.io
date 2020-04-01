@@ -19,3 +19,21 @@
   border-color: #ecd2b8!important;
 }
 
+@media (min-width: 576px) {
+  #icons {
+  }
+}
+
+@media (min-width: 300px) {
+  #icons {
+  }
+}
+
+#contacttable {
+}
+
+@media (min-width: 576px) {
+  #contactrow {
+  }
+}
+

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="min-height: 100%;max-height: 100%;height: 100%;">
+<html style="min-height: 100%;max-height: 100%;height: 100%;background-color: #6e6e6e;">
 
 <head>
     <meta charset="utf-8">
@@ -17,11 +17,11 @@
 </head>
 
 <body style="margin: -12px;font-family: Montserrat, sans-serif;background-color: rgba(236,210,184,0);height: 100%;">
-    <div class="container">
+    <div class="container-lg">
         <div>
             <!-- Start: Header -->
             <section style="background-color: #ecd2b8;">
-                <div class="row" style="margin-left: 0px;margin-right: 0px;">
+                <div class="row row-cols-1" style="margin-right: 0px;margin-left: 0px;">
                     <!-- Start: Name -->
                     <div class="col-12 col-md-7 d-flex d-xl-flex flex-column justify-content-center justify-content-xl-center align-items-xl-center" style="background-color: #ce8481;">
                         <div>
@@ -31,37 +31,61 @@
                     </div>
                     <!-- End: Name -->
                     <!-- Start: Contact info -->
-                    <div class="col-12 col-sm-11 col-md-5 m-auto" style="background-color: #ecd2b8;">
-                        <div class="container-fluid" style="padding-top: 10en;padding-bottom: 10en;">
-                            <div class="table-borderless border-primary" style="color: #ce8481;padding-top: 2em;padding-bottom: 1em;">
-                                <table class="table table-bordered table-sm">
-                                    <tbody class="text-justify border rounded-0 border-info" style="color: #ce8481;">
-                                        <tr>
-                                            <td class="text-right"><i class="fas fa-map-marker-alt" style="font-size: 21px;"></i>&nbsp;</td>
-                                            <td>Edgewater, NJ</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-right"><i class="icon-phone" style="font-size: 21px;"></i></td>
-                                            <td>(708) 601-5457</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-right" style="font-size: 17px;"><i class="material-icons d-flex justify-content-end align-items-center" style="font-size: 21px;">mail_outline</i></td>
-                                            <td class="d-flex justify-content-start align-items-start" rowspan="1" colspan="2">mat@mignin.com</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-right"><i class="icon-globe" style="font-size: 18px;"></i></td>
-                                            <td rowspan="1" colspan="3">mat.mignin.com</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-right"><i class="fa fa-github" style="font-size: 22px;"></i></td>
-                                            <td>github.com/matmignin</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-right"><i class="fa fa-linkedin" style="font-size: 19px;"></i></td>
-                                            <td>linkedin.com/ln/matmignin</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                    <div class="col-12 col-md-5 col-lg-4 offset-lg-1" style="background-color: #ecd2b8;">
+                        <div class="container d-sm-flex">
+                            <div class="row no-gutters row-cols-2 text-nowrap text-left" id="contactrow">
+                                <div class="col-2 col-sm-5 col-md-2 col-lg-1 offset-md-0 offset-lg-0 d-flex justify-content-end mr-md-auto" id="icons">
+                                    <div class="table-borderless border-primary" style="color: #ce8481;padding-top: 2em;padding-bottom: 1em;margin-left: 3em;">
+                                        <table class="table table-bordered table-sm">
+                                            <tbody class="border rounded-0 border-info" style="color: #ce8481;">
+                                                <tr>
+                                                    <td class="text-right"><i class="fas fa-map-marker-alt" style="font-size: 21px;"></i>&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><i class="icon-phone" style="font-size: 21px;"></i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right" style="font-size: 17px;"><i class="material-icons d-flex justify-content-end align-items-center" style="font-size: 21px;">mail_outline</i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><i class="icon-globe" style="font-size: 18px;"></i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><i class="fa fa-github" style="font-size: 22px;"></i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right"><i class="fa fa-linkedin" style="font-size: 19px;"></i></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="col-9 col-sm-3 col-md-10 mx-auto" id="contacttable">
+                                    <div class="table-borderless border-primary justify-content-end align-items-center" style="color: #ce8481;padding-top: 2em;padding-bottom: 1em;">
+                                        <table class="table table-bordered table-sm">
+                                            <tbody class="text-justify border rounded-0 border-info" id="contactbox" style="color: #ce8481;border-left-color: #ce8481!important;border-left-width: thick;">
+                                                <tr>
+                                                    <td>&nbsp; &nbsp;Edgewater, NJ</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>&nbsp; &nbsp;(708) 601-5457</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="d-flex justify-content-start align-items-start" rowspan="1" colspan="2">&nbsp; &nbsp;mat@mignin.com</td>
+                                                </tr>
+                                                <tr>
+                                                    <td rowspan="1" colspan="3">&nbsp; &nbsp;mat.mignin.com</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>&nbsp; &nbsp;github.com/matmignin</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>&nbsp; &nbsp;linkedin.com/ln/matmignin</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
