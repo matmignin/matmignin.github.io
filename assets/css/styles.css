@@ -11,7 +11,7 @@
 
 .titletext {
   font-size: 12px;
-  letter-spacing: -1px;
+  letter-spacing: 0px;
   color: #ecd2b8;
 }
 
@@ -34,6 +34,84 @@
 
 @media (min-width: 576px) {
   #contactrow {
+  }
+}
+
+.p1, p1 {
+  font-size: larger;
+  color: #ce8481;
+}
+
+strong {
+  color: #ce8481;
+  font-weight: bolder;
+}
+
+.subjecthead {
+  padding-bottom: 3px;
+}
+
+.BodyBox {
+  border-left-width: thick;
+  border-color: #ce8481;
+}
+
+.border-success {
+  border-color: #e0e3d9!important;
+}
+
+@media (min-width: 576px) {
+  #projectTable {
+    border-left-width: 3px!important;
+    border-left-color: #ce8481!important;
+    margin-left: -15px;
+    padding-left: 15px;
+  }
+}
+
+#projectTable {
+  border-top-width: 3px!important;
+  border-top-color: #ce8481!important;
+  margin-top: 15px;
+  padding-top: 15px;
+}
+
+@media (min-width: 576px) {
+  #projectTable {
+    border-top-width: 0px!important;
+    border-top-color: #ce8481!important;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+}
+
+.iconbody {
+  border-right-width: 3px!important;
+  border-right-color: #ce8481!important;
+}
+
+@media (min-width: 768px) {
+  .skillBox {
+    border-right-width: 3px!important;
+    border-right-color: #ce8481!important;
+    margin-right: -15px;
+    padding-right: 15px;
+  }
+}
+
+.skillBox {
+  border-bottom-width: 3px!important;
+  border-bottom-color: #ce8481!important;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+  .skillBox {
+    border-bottom-width: 0px!important;
+    border-bottom-color: #ecd2b8!important;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
 }
 
