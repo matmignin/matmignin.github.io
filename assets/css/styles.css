@@ -60,7 +60,7 @@ strong {
   border-color: #e0e3d9!important;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   #projectTable {
     border-left-width: 3px!important;
     border-left-color: #ce8481!important;
@@ -76,10 +76,10 @@ strong {
   padding-top: 15px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   #projectTable {
     border-top-width: 0px!important;
-    border-top-color: #ce8481!important;
+    border-top-color: #e0e3d9!important;
     margin-top: 0px;
     padding-top: 0px;
   }
